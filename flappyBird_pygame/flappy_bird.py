@@ -27,7 +27,7 @@ class Bird(pygame.sprite.Sprite):
     HEIGHT = 32  #   bird image height
     DOWN_SPEED = 0.18  #   pix per ms  -y
     UP_SPEED = 0.3  #   pix per ms  +y
-    UP_DURATION = 150  #   time for which bird go up
+    UP_DURATION = 151  #   time for which bird go up
 
     def __init__(self, x, y, ms_to_up, images):
 
